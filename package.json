@@ -1,0 +1,20 @@
+{
+  "name": "minmax",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/chess.js": "^0.13.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "chess.js": "^1.0.0-alpha.0",
+    "cm-chessboard": "^5.2.3"
+  }
+}
